@@ -1,0 +1,162 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    /* font-family:Montserrat; */
+}
+/* navbar section */
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:50px;
+    margin-top: 10px;
+    font-family: Orbitron;
+}
+.navbar-container>div>img{
+    position: absolute;
+    width:8%; 
+    margin-left: 15%;
+  
+}
+.list{
+    margin-top: 10px;
+    position: absolute;
+    right:30%;
+    display:flex;
+    justify-items:baseline;
+    align-items:baseline;
+    list-style: none;
+    gap:50px;
+}
+.list-item{
+    font-size: 18px;
+    font-weight:500;
+}
+.button-group{
+    margin-top: 25px;
+    align-items: center;
+    display: flex;
+    justify-content:flex-end;
+    gap:10px;
+    position:absolute;
+    right: 8%;  
+}
+.nav-button{
+    background-color: white;
+    padding:4px 30px;
+    border-radius: 9px;
+    border-width: 2.5px;
+    font-size: 17px;  
+}
+/* Hero Banner Section */
+.hero-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    position: relative;
+}
+/* LEFT SIDE */
+.square{
+    position: absolute;
+    margin-top:200px;
+    margin-left:340px;
+}
+.square>img{
+    width: 350px;
+}
+.globe+div{
+   position: absolute; 
+   margin-right: -100px;
+   margin-left: 220px;  
+}
+.globe+div img{
+    width: 400px;
+}
+/* RIGHT SIDE */
+.globe{
+    margin-left:-500px;
+    margin-top: -30px;
+
+}
+.globe img{
+    width: 50px;
+}
+.square + .star{
+    margin-top: 400px;
+    margin-left:750px;
+    position: absolute;
+    margin-top: 470px;
+}
+.square + .star img{
+    width:40px;
+}
+.star + .star{
+    margin-left:1300px; 
+}
+.star + .star img{
+    width:50px;
+}
+.hero-container-right{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 500px;
+}
+.hero-heading{
+    font-size:49px;
+    font-weight:bold;
+    padding-bottom: 40px;
+    font-family: Orbitron;
+    margin-left:190px ;
+}
+.hero-description{
+    font-size: 14px;
+    margin-bottom: 90px;
+    margin-left: 250px;
+    font-weight: lighter;
+    line-height: 1.2;
+    word-wrap: break-word;
+    width: 90ch;
+    font-family: monospace;
+    color:gray;
+}
+.button-email{
+    background-color: white;
+    color: black;
+    padding:5px 30px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-left: 360px;
+    font-family: Orbitron;
+}
+.button-join{
+    background-color: black;
+    color: white;
+    padding:4px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: Orbitron;
+}
+.contact-heading{
+    margin-top: 140px;
+    margin-left: 480px;
+    font-size: 18px;
+    color: gray;
+    font-family:sans-serif;
+}
+.icons{
+    margin-left: 410px;
+    margin-top: 20px;
+}
+.icons img{
+    padding-left: 15px;
+    width: 48px;
+}
